@@ -1,0 +1,259 @@
+/* These two colors are the vibrant background colors 
+you see throughout the design and are applied as a linear gradient: */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+  background-color: #f5f3f7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+}
+
+.phone {
+  background-color: white;
+  -webkit-box-shadow: 5.9px 8.4px 3.6px rgba(0, 0, 0, 0.021), 13.1px 18.5px 10px rgba(0, 0, 0, 0.03), 25.8px 36.4px 24.1px rgba(0, 0, 0, 0.039), 68px 96px 80px rgba(0, 0, 0, 0.06);
+          box-shadow: 5.9px 8.4px 3.6px rgba(0, 0, 0, 0.021), 13.1px 18.5px 10px rgba(0, 0, 0, 0.03), 25.8px 36.4px 24.1px rgba(0, 0, 0, 0.039), 68px 96px 80px rgba(0, 0, 0, 0.06);
+  width: 241px;
+  height: 466px;
+  margin-top: -10.6rem;
+  -webkit-transform: translateY(17px);
+          transform: translateY(17px);
+  border-radius: 2.8rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0.9rem;
+}
+
+.phone__chat-screen {
+  background-color: #f5f3f7;
+  border-radius: 2rem;
+}
+
+.phone img {
+  width: 10px;
+}
+
+.chat-screen {
+  height: 100%;
+}
+
+.chat-screen__header {
+  background-image: -webkit-gradient(linear, right top, left top, from(#e942ff), to(#8838ff));
+  background-image: linear-gradient(to left, #e942ff, #8838ff);
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+  border-bottom-left-radius: 0.6rem;
+  border-bottom-right-radius: 0.6rem;
+  height: 68px;
+  -webkit-box-shadow: 0px 7px 0px rgba(0, 0, 0, 0.02);
+          box-shadow: 0px 7px 0px rgba(0, 0, 0, 0.02);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2rem 1.5rem 0;
+}
+
+.chat-screen__header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 55px;
+  width: 123px;
+  height: 28px;
+  background-color: white;
+  border-bottom-left-radius: 1.3rem;
+  border-bottom-right-radius: 1.3rem;
+}
+
+.chat-screen__header > img {
+  width: 22px;
+  border-radius: 50%;
+  outline: 0.1rem solid white;
+}
+
+.chat-screen__header .chat-screen__back-arrow {
+  color: white;
+  margin-right: 1rem;
+}
+
+.chat-screen__header .chat-screen__avatar {
+  margin-left: 0.5rem;
+}
+
+.chat-screen__header .chat-screen__avatar .chat-screen__name {
+  color: white;
+  font-weight: 400;
+}
+
+.chat-screen__header .chat-screen__avatar .chat-screen__status {
+  color: #d89eff;
+  font-weight: 400;
+}
+
+.chat-screen__header .chat-screen__three-dots {
+  color: #fff;
+  position: absolute;
+  right: 11%;
+  line-height: 0.5rem;
+  font-weight: 400;
+}
+
+.chat-screen__chats {
+  padding: 1rem 0.5rem 1rem 1rem;
+}
+
+.chat-screen__chats .chat-screen__left-side-chats {
+  color: #9241c8;
+}
+
+.chat-screen__chats .chat-screen__left-side-chats span {
+  background-color: rgba(146, 65, 200, 0.1);
+}
+
+.chat-screen__chats .chat-screen__right-side-chats {
+  color: #6e5d7e;
+  position: relative;
+  left: 100%;
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  max-width: -webkit-max-content;
+  max-width: -moz-max-content;
+  max-width: max-content;
+}
+
+.chat-screen__chats .chat-screen__right-side-chats img {
+  width: 40px;
+  border-radius: 1rem;
+  margin-right: 0.5rem;
+}
+
+.chat-screen__chats .chat-screen__right-side-chats span {
+  background-color: white;
+  max-width: 123px;
+  border-top-left-radius: 0.9rem;
+  border-top-right-radius: 0.9rem;
+  border-bottom-left-radius: 0.9rem;
+  border-bottom-right-radius: 0.35rem;
+}
+
+.chat-screen__walk-the-dog-price {
+  background-image: -webkit-gradient(linear, left top, right top, from(#e942ff), to(#8838ff));
+  background-image: linear-gradient(to right, #e942ff, #8838ff);
+  padding: 1.5rem;
+  color: white;
+  font-weight: 400;
+  font-size: 0.6rem !important;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 1.5rem !important;
+  width: 15rem;
+}
+
+.chat-screen__walk-the-dog-price span {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  margin-right: 0.5rem;
+  -webkit-clip-path: circle(50% at 50% 50%);
+          clip-path: circle(50% at 50% 50%);
+  background-color: transparent;
+  border: 1px solid white;
+}
+
+.chat-screen__walk-the-dog-price h2 {
+  display: inline-block;
+  position: absolute;
+  left: 55%;
+  font-size: 1.1rem;
+}
+
+.chat-boxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 0.5rem;
+  min-height: 100px;
+  max-width: 123px;
+}
+
+.chat-boxes span {
+  padding: 0.5rem;
+  margin-bottom: 0.3rem;
+  display: inline-block;
+  border-top-left-radius: 0.9rem;
+  border-top-right-radius: 0.9rem;
+  border-bottom-right-radius: 0.9rem;
+  border-bottom-left-radius: 0.35rem;
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+}
+
+.intro {
+  text-align: center;
+  -webkit-transform: translateY(10rem);
+          transform: translateY(10rem);
+}
+
+.intro h1 {
+  font-size: 3.7rem;
+  font-weight: 500;
+  margin-bottom: 0.6rem;
+  color: #3e2753;
+}
+
+.intro p {
+  font-size: 1.9rem;
+  line-height: 3.4rem;
+  color: #a39daa;
+  -webkit-transform: scale(0.8) translateY(4px);
+          transform: scale(0.8) translateY(4px);
+}
+/*# sourceMappingURL=style.css.map */
