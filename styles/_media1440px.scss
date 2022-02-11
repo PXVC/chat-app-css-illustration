@@ -1,0 +1,38 @@
+@media screen and (min-width: 640px) {
+	.phone {
+		margin-top: 11.4rem;
+		position: relative;
+		right: 16%;
+	}
+
+	.intro {
+		text-align: left;
+		transform: translate(280px, -29.8rem);
+		width: 530px;
+
+		h1 {
+			font-size: 4rem;
+		}
+
+		p {
+			transform: scale(0.8) translate(-60px, 4px);
+		}
+	}
+
+	.css-illustration {
+		width: 40%;
+    height: 88%;
+	}
+
+	.top-illustration {
+		left: -10.7%;
+	}
+
+	.bottom-illustration {
+		background-color: $grayish-blue;
+		width: 30%;
+		top: 15%;
+    left: 78%;
+		opacity: 0.1;
+	}
+}

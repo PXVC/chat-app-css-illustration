@@ -227,7 +227,7 @@
 	background: center / cover no-repeat;
 }
 
-.illustration-top {
+.top-illustration{
 	top: 0;
 	left: -50%;
 	background-image: linear-gradient($light-magenta, $light-violet);
@@ -235,7 +235,7 @@
 	border-bottom-left-radius: 30rem;
 }
 
-.illustration-bottom {
+.bottom-illustration {
 	bottom: 0;
 	right: -50%;
 	background-color: $light-grayish-violet;
